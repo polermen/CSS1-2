@@ -1,0 +1,220 @@
+h1 {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 1237px;
+    height: 86px;
+    font-size: 72px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+#first {
+    margin-top: 37px;
+    width: 568px;
+    height: 886px;
+}
+
+#staryNight {
+    width: 568px;
+    height: 446px;
+}
+
+#h2first {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    height: 48px;
+    width: 568px;
+}
+
+#pfirst {
+    width: 568px;
+    height: 96px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #414651;
+    text-align: center;
+    vertical-align: top;
+}
+
+#olfirst {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #155EEF;
+    text-align: left;
+    vertical-align: top;
+    width: 568px;
+}
+
+#dfirst {
+    width: 177px;
+    height: 56px;
+    border: 2px solid #CEA201;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+#linkfirst {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #CEA201;
+    text-align: left;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+#second {
+    margin-top: 74px;
+    width: 722px;
+    height: 1156px;
+    position: relative;
+}
+
+#h2second {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: black;
+    text-align: left; 
+    height: 48px;;
+}
+
+#psecond {
+    width: 722px;
+    height: 72px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+    color: #414651;
+}
+
+#h3first {
+    color: #00C76E;
+    width: 722px;
+    height: 24px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#olsecond {
+    color: #FF5DA3;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+    width: 461px;
+    height: 72px;
+    margin: 0 auto;
+}
+
+#img2 {
+    margin-top: 24px;
+    width: 200px;
+    height: 200px;
+}
+
+#pinkBox {
+    border: 6px solid #C11574;
+    background-color: #FFDEF0;
+    width: 722px;
+    height: 160px;
+    margin-top: 24px;
+}
+
+#h3second {
+    margin-left: 16px;
+    color: #414651;
+    width: 690px;
+    height: 24px;
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+    vertical-align: top;
+}
+
+#ulfirst {
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #C27512;
+    width: 495px;
+    height: 88px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  ul li {
+    position: relative; /* Make it easier to position the custom bullet */
+    padding-left: 30px; /* Space for the custom bullet */
+  }
+  
+  ul li::before {
+    content: ''; /* Make the pseudo-element empty */
+    position: absolute;
+    left: 0; /* Align the bullet to the left of the list item */
+    top: 50%; /* Vertically center the bullet */
+    transform: translateY(-50%); /* Correct for any slight vertical misalignment */
+    width: 16px; /* Width of the bullet */
+    height: 16px; /* Height of the bullet */
+    background-color: black; /* Bullet color */
+    border-radius: 50%; /* Make the bullet circular */
+  }
+  
+  #img3 {
+    margin-top: 24px;
+    width: 298.01px;
+    height: 396px;
+  }
+
+  #linksecond {
+    color: #00D4BC;
+    margin-top: 24px;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
